@@ -67,7 +67,6 @@ namespace QuanLyCongTy
                     this.Hide();
                     QuanLyForm quanLyForm = new QuanLyForm();
                     quanLyForm.ShowDialog();
-                    quanLyForm = null;
                     this.Show();
                 }
                 else if(kq == 1)
