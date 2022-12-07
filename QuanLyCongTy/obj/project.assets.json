@@ -475,9 +475,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\QuanLyCongTy.csproj",
-      "projectName": "QuanLyCongTy",
-      "projectPath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\QuanLyCongTy.csproj",
+      "projectUniqueName": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\QuanLyNhanSu.csproj",
+      "projectName": "QuanLyNhanSu",
+      "projectPath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\QuanLyNhanSu.csproj",
       "packagesPath": "C:\\Users\\trant\\.nuget\\packages\\",
       "outputPath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iHpRxwdBL/ccIHlOQxlSKzdZ6pY3In9nz/yK4caUefbLpRchxl1ip74SdNoY7EoFjx+Z2RqX4ADWHmLIMk6W2w==",
+  "dgSpecHash": "r0L0VkE49hzEy7kaLFcFypJ0JbyJIIQ6XmgthFNNkLwA6jMQjKSKv4pYJ649GOcieS1tP1GkFr9o57KWKYkAqA==",
   "success": true,
-  "projectFilePath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\QuanLyCongTy.csproj",
+  "projectFilePath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\QuanLyNhanSu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trant\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\trant\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

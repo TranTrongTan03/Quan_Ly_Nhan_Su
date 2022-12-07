@@ -25,3 +25,32 @@ F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongT
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.DangNhap.resources
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.QuenMatKhauForm.resources
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.QuanLyForm.resources
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\QuanLyCongTy.exe
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\QuanLyCongTy.deps.json
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\QuanLyCongTy.runtimeconfig.json
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\QuanLyCongTy.dll
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\QuanLyCongTy.pdb
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\New folder\Do-An-C\QuanLyCongTy\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.csproj.AssemblyReference.cache
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.DangNhap.resources
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.Properties.Resources.resources
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.QuanLyForm.resources
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.QuenMatKhauForm.resources
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.csproj.GenerateResource.cache
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.AssemblyInfoInputs.cache
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.AssemblyInfo.cs
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.csproj.CoreCompileInputs.cache
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.csproj.CopyComplete
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.dll
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\refint\QuanLyCongTy.dll
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.pdb
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.genruntimeconfig.cache
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\ref\QuanLyCongTy.dll
+E:\New folder\Do-An-C\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.QuanLyTaiKhoanForm.resources
+F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyCongTy.QuanLyTaiKhoanForm.resources

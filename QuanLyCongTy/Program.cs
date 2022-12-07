@@ -1,4 +1,4 @@
-namespace QuanLyCongTy
+namespace QuanLyNhanSu
 {
     internal static class Program
     {

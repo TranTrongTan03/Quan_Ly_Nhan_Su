@@ -1,4 +1,4 @@
-﻿namespace QuanLyCongTy
+﻿namespace QuanLyNhanSu
 {
     partial class QuenMatKhauForm
     {
@@ -39,7 +39,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.Image = global::QuanLyCongTy.Properties.Resources._0af3c9613761d2d2394d99312aeba397;
+            this.pictureBox1.Image = global::QuanLyNhanSu.Properties.Resources._0af3c9613761d2d2394d99312aeba397;
             this.pictureBox1.Location = new System.Drawing.Point(168, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(282, 190);
