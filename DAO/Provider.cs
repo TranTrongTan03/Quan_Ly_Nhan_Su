@@ -62,7 +62,6 @@ namespace QuanLyNhanSu
         public DataTable Select(CommandType cmdType, string strSql, params SqlParameter[] parameters)
         {
             DataTable dt = new DataTable();
-
             try
             {
                 Connect();

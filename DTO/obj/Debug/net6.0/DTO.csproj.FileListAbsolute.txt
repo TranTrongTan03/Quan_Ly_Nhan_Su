@@ -1,0 +1,12 @@
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\bin\Debug\net6.0\DTO.deps.json
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\bin\Debug\net6.0\DTO.dll
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\bin\Debug\net6.0\DTO.pdb
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\DTO.dll
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\refint\DTO.dll
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\DTO.pdb
+F:\LapTrinhCSharp\QuanLyCongTy\DTO\obj\Debug\net6.0\ref\DTO.dll

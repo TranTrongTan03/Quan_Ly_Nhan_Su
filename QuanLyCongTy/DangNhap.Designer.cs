@@ -120,7 +120,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.Image = global::QuanLyNhanSu.Properties.Resources._0af3c9613761d2d2394d99312aeba397;
+            this.pictureBox1.Image = global::GUI.Properties.Resources._0af3c9613761d2d2394d99312aeba397;
             this.pictureBox1.Location = new System.Drawing.Point(162, 39);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(282, 190);
@@ -130,6 +130,7 @@
             // 
             // DangNhap
             // 
+            this.AcceptButton = this.btnDangNhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;

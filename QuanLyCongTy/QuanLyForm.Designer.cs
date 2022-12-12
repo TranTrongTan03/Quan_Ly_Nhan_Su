@@ -31,12 +31,17 @@
             this.btnQuanLyTaiKhoan = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnPhanCong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnQuanLyTaiKhoan
             // 
             this.btnQuanLyTaiKhoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnQuanLyTaiKhoan.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnQuanLyTaiKhoan.FlatAppearance.BorderSize = 3;
+            this.btnQuanLyTaiKhoan.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnQuanLyTaiKhoan.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
+            this.btnQuanLyTaiKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuanLyTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnQuanLyTaiKhoan.ForeColor = System.Drawing.Color.Black;
             this.btnQuanLyTaiKhoan.Location = new System.Drawing.Point(100, 54);
@@ -66,14 +71,21 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnPhanCong
             // 
-            this.button4.Location = new System.Drawing.Point(495, 242);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 150);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnPhanCong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPhanCong.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnPhanCong.FlatAppearance.BorderSize = 3;
+            this.btnPhanCong.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnPhanCong.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
+            this.btnPhanCong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPhanCong.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPhanCong.Location = new System.Drawing.Point(495, 242);
+            this.btnPhanCong.Name = "btnPhanCong";
+            this.btnPhanCong.Size = new System.Drawing.Size(200, 150);
+            this.btnPhanCong.TabIndex = 3;
+            this.btnPhanCong.Text = "Phân công";
+            this.btnPhanCong.UseVisualStyleBackColor = false;
             // 
             // QuanLyForm
             // 
@@ -81,13 +93,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnPhanCong);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnQuanLyTaiKhoan);
             this.Name = "QuanLyForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QuanLyForm";
+            this.Load += new System.EventHandler(this.QuanLyForm_Load);
             this.ResumeLayout(false);
 
         }
@@ -97,6 +110,6 @@
         private Button btnQuanLyTaiKhoan;
         private Button button2;
         private Button button3;
-        private Button button4;
+        private Button btnPhanCong;
     }
 }

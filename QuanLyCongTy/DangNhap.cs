@@ -52,31 +52,43 @@ namespace QuanLyNhanSu
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
+            try 
+            { 
             string dangNhap = tbTaiKhoan.Text;
             string matKhau = tbMatKhau.Text;
             int kq = kiemTraDangNhap(dangNhap, matKhau);
-            if (dangNhap.Trim() == "")
-                MessageBox.Show("Vui lòng nhập tên tài khoản!");
-            else if(matKhau.Trim() == "")
-                MessageBox.Show("Vui lòng nhập mật khẩu!");
+                if (dangNhap.Trim() == "")
+                    MessageBox.Show("Vui lòng nhập tên tài khoản!");
+                else if (matKhau.Trim() == "")
+                    MessageBox.Show("Vui lòng nhập mật khẩu!");
 
-            else
-            {
-                if (kq == 0)
-                {
-                    this.Hide();
-                    QuanLyForm quanLyForm = new QuanLyForm();
-                    quanLyForm.ShowDialog();
-                    this.Show();
-                }
-                else if(kq == 1)
-                {
-                    MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
                 else
                 {
-                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không chích xác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (kq == 0)
+                    {
+                        this.Hide();
+                        QuanLyForm quanLyForm = new QuanLyForm();
+                        quanLyForm.Loai = kq;
+                        quanLyForm.ShowDialog();
+                        this.Close();
+                    }
+                    else if (kq == 1)
+                    {
+                        this.Hide();
+                        QuanLyForm quanLyForm = new QuanLyForm();
+                        quanLyForm.Loai = kq;
+                        quanLyForm.ShowDialog();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Tên tài khoản hoặc mật khẩu không chính xác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
+            }
+            catch(Exception ex)
+            {
+                throw;
             }
         }
 

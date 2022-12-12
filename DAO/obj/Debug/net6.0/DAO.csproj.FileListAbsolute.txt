@@ -1,0 +1,15 @@
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\bin\Debug\net6.0\DAO.deps.json
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\bin\Debug\net6.0\DAO.dll
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\bin\Debug\net6.0\DAO.pdb
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\bin\Debug\net6.0\DTO.dll
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\bin\Debug\net6.0\DTO.pdb
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\DAO.csproj.AssemblyReference.cache
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\DAO.GeneratedMSBuildEditorConfig.editorconfig
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\DAO.AssemblyInfoInputs.cache
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\DAO.AssemblyInfo.cs
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\DAO.csproj.CoreCompileInputs.cache
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\DAO.csproj.CopyComplete
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\DAO.dll
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\refint\DAO.dll
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\DAO.pdb
+F:\LapTrinhCSharp\QuanLyCongTy\DAO\obj\Debug\net6.0\ref\DAO.dll

@@ -12,6 +12,8 @@ namespace QuanLyNhanSu
 {
     public partial class QuanLyForm : Form
     {
+        private int _loai;
+        public int Loai { get => _loai; set => _loai = value; }
         public QuanLyForm()
         {
             InitializeComponent();
@@ -22,7 +24,17 @@ namespace QuanLyNhanSu
             this.Hide();
             QuanLyTaiKhoanForm quanLyTaiKhoanForm = new QuanLyTaiKhoanForm();
             quanLyTaiKhoanForm.ShowDialog();
-            this.Show();
+            this.Close();
+        }
+
+        private void QuanLyForm_Load(object sender, EventArgs e)
+        {
+            if(Loai == 1)
+            {
+
+                btnQuanLyTaiKhoan.Hide();
+                btnPhanCong.Hide(); 
+            }
         }
     }
 }
