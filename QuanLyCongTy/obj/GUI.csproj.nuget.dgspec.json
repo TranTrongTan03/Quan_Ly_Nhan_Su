@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "F:\\LapTrinhCSharp\\QuanLyCongTy\\GUI\\GUI.csproj": {}
+    "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\GUI.csproj": {}
   },
   "projects": {
     "F:\\LapTrinhCSharp\\QuanLyCongTy\\BUS\\BUS.csproj": {
@@ -186,14 +186,14 @@
         }
       }
     },
-    "F:\\LapTrinhCSharp\\QuanLyCongTy\\GUI\\GUI.csproj": {
+    "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\LapTrinhCSharp\\QuanLyCongTy\\GUI\\GUI.csproj",
+        "projectUniqueName": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\GUI\\GUI.csproj",
+        "projectPath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\GUI.csproj",
         "packagesPath": "C:\\Users\\trant\\.nuget\\packages\\",
-        "outputPath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\GUI\\obj\\",
+        "outputPath": "F:\\LapTrinhCSharp\\QuanLyCongTy\\QuanLyCongTy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\trant\\AppData\\Roaming\\NuGet\\NuGet.Config",
