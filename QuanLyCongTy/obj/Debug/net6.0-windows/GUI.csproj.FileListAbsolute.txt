@@ -34,3 +34,4 @@ F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.DangNha
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.QuanLyForm.resources
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.QuanLyTaiKhoanForm.resources
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.QuenMatKhauForm.resources
+F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.CongViecForm.resources

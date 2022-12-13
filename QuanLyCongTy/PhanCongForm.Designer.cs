@@ -32,9 +32,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.tbMaQuanLy = new System.Windows.Forms.TextBox();
             this.dgvDanhSachPhanCong = new System.Windows.Forms.DataGridView();
-            this.MaQuanLy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaQL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaCongViec = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaPhong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbTim = new System.Windows.Forms.TextBox();
@@ -42,8 +41,11 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbbMaCV = new System.Windows.Forms.ComboBox();
+            this.cbbMaPhong = new System.Windows.Forms.ComboBox();
+            this.cbbMaQL = new System.Windows.Forms.ComboBox();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnDangXuat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachPhanCong)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +62,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 67);
+            this.label2.Location = new System.Drawing.Point(21, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 20);
             this.label2.TabIndex = 1;
@@ -84,13 +86,6 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Mã phòng";
             // 
-            // tbMaQuanLy
-            // 
-            this.tbMaQuanLy.Location = new System.Drawing.Point(126, 66);
-            this.tbMaQuanLy.Name = "tbMaQuanLy";
-            this.tbMaQuanLy.Size = new System.Drawing.Size(224, 27);
-            this.tbMaQuanLy.TabIndex = 4;
-            // 
             // dgvDanhSachPhanCong
             // 
             this.dgvDanhSachPhanCong.AllowUserToAddRows = false;
@@ -98,24 +93,25 @@
             this.dgvDanhSachPhanCong.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDanhSachPhanCong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhSachPhanCong.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MaQuanLy,
+            this.MaQL,
             this.MaCongViec,
             this.MaPhong});
-            this.dgvDanhSachPhanCong.Location = new System.Drawing.Point(374, 112);
+            this.dgvDanhSachPhanCong.Location = new System.Drawing.Point(374, 139);
             this.dgvDanhSachPhanCong.Name = "dgvDanhSachPhanCong";
             this.dgvDanhSachPhanCong.ReadOnly = true;
             this.dgvDanhSachPhanCong.RowHeadersWidth = 51;
             this.dgvDanhSachPhanCong.RowTemplate.Height = 29;
             this.dgvDanhSachPhanCong.Size = new System.Drawing.Size(414, 308);
             this.dgvDanhSachPhanCong.TabIndex = 7;
+            this.dgvDanhSachPhanCong.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachPhanCong_CellClick);
             // 
-            // MaQuanLy
+            // MaQL
             // 
-            this.MaQuanLy.DataPropertyName = "MaQuanLy";
-            this.MaQuanLy.HeaderText = "Mã Quản Lý";
-            this.MaQuanLy.MinimumWidth = 6;
-            this.MaQuanLy.Name = "MaQuanLy";
-            this.MaQuanLy.ReadOnly = true;
+            this.MaQL.DataPropertyName = "MaQL";
+            this.MaQL.HeaderText = "Mã Quản Lý";
+            this.MaQL.MinimumWidth = 6;
+            this.MaQL.Name = "MaQL";
+            this.MaQL.ReadOnly = true;
             // 
             // MaCongViec
             // 
@@ -135,15 +131,16 @@
             // 
             // tbTim
             // 
-            this.tbTim.Location = new System.Drawing.Point(526, 67);
+            this.tbTim.Location = new System.Drawing.Point(526, 94);
             this.tbTim.Name = "tbTim";
             this.tbTim.Size = new System.Drawing.Size(224, 27);
             this.tbTim.TabIndex = 9;
+            this.tbTim.TextChanged += new System.EventHandler(this.tbTim_TextChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(421, 68);
+            this.label5.Location = new System.Drawing.Point(421, 95);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(34, 20);
             this.label5.TabIndex = 8;
@@ -157,6 +154,7 @@
             this.btnThem.TabIndex = 10;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
@@ -166,6 +164,7 @@
             this.btnSua.TabIndex = 11;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -175,53 +174,68 @@
             this.btnXoa.TabIndex = 12;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
-            // comboBox1
+            // cbbMaCV
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "CV001",
-            "CV002",
-            "CV003",
-            "CV004",
-            "CV005",
-            "CV006",
-            "CV007",
-            "CV008"});
-            this.comboBox1.Location = new System.Drawing.Point(123, 113);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(224, 28);
-            this.comboBox1.TabIndex = 13;
+            this.cbbMaCV.FormattingEnabled = true;
+            this.cbbMaCV.Location = new System.Drawing.Point(123, 113);
+            this.cbbMaCV.Name = "cbbMaCV";
+            this.cbbMaCV.Size = new System.Drawing.Size(224, 28);
+            this.cbbMaCV.TabIndex = 13;
             // 
-            // comboBox2
+            // cbbMaPhong
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "P001",
-            "P002",
-            "P003",
-            "P004",
-            "P005",
-            "P006"});
-            this.comboBox2.Location = new System.Drawing.Point(123, 160);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(224, 28);
-            this.comboBox2.TabIndex = 14;
+            this.cbbMaPhong.FormattingEnabled = true;
+            this.cbbMaPhong.Location = new System.Drawing.Point(123, 160);
+            this.cbbMaPhong.Name = "cbbMaPhong";
+            this.cbbMaPhong.Size = new System.Drawing.Size(224, 28);
+            this.cbbMaPhong.TabIndex = 14;
+            // 
+            // cbbMaQL
+            // 
+            this.cbbMaQL.FormattingEnabled = true;
+            this.cbbMaQL.Location = new System.Drawing.Point(123, 68);
+            this.cbbMaQL.Name = "cbbMaQL";
+            this.cbbMaQL.Size = new System.Drawing.Size(224, 28);
+            this.cbbMaQL.TabIndex = 15;
+            // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(12, 9);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(72, 27);
+            this.btnBack.TabIndex = 17;
+            this.btnBack.Text = "Quay lại";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.Location = new System.Drawing.Point(694, 9);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(94, 58);
+            this.btnDangXuat.TabIndex = 18;
+            this.btnDangXuat.Text = "Đăng xuất";
+            this.btnDangXuat.UseVisualStyleBackColor = true;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
             // PhanCongForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.btnDangXuat);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.cbbMaQL);
+            this.Controls.Add(this.cbbMaPhong);
+            this.Controls.Add(this.cbbMaCV);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.tbTim);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dgvDanhSachPhanCong);
-            this.Controls.Add(this.tbMaQuanLy);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -229,6 +243,7 @@
             this.Name = "PhanCongForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PhanCongForm";
+            this.Load += new System.EventHandler(this.PhanCongForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachPhanCong)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -241,17 +256,19 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private TextBox tbMaQuanLy;
         private DataGridView dgvDanhSachPhanCong;
-        private DataGridViewTextBoxColumn MaQuanLy;
-        private DataGridViewTextBoxColumn MaCongViec;
-        private DataGridViewTextBoxColumn MaPhong;
         private TextBox tbTim;
         private Label label5;
         private Button btnThem;
         private Button btnSua;
         private Button btnXoa;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
+        private ComboBox cbbMaCV;
+        private ComboBox cbbMaPhong;
+        private DataGridViewTextBoxColumn MaQL;
+        private DataGridViewTextBoxColumn MaCongViec;
+        private DataGridViewTextBoxColumn MaPhong;
+        private ComboBox cbbMaQL;
+        private Button btnBack;
+        private Button btnDangXuat;
     }
 }

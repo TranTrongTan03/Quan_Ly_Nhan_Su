@@ -30,7 +30,7 @@
         {
             this.btnQuanLyTaiKhoan = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCongViec = new System.Windows.Forms.Button();
             this.btnPhanCong = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -66,14 +66,22 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnCongViec
             // 
-            this.button3.Location = new System.Drawing.Point(43, 239);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 150);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCongViec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnCongViec.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnCongViec.FlatAppearance.BorderSize = 3;
+            this.btnCongViec.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnCongViec.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
+            this.btnCongViec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCongViec.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCongViec.Location = new System.Drawing.Point(43, 239);
+            this.btnCongViec.Name = "btnCongViec";
+            this.btnCongViec.Size = new System.Drawing.Size(200, 150);
+            this.btnCongViec.TabIndex = 2;
+            this.btnCongViec.Text = "Công việc";
+            this.btnCongViec.UseVisualStyleBackColor = true;
+            this.btnCongViec.Click += new System.EventHandler(this.btnCongViec_Click);
             // 
             // btnPhanCong
             // 
@@ -84,7 +92,7 @@
             this.btnPhanCong.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
             this.btnPhanCong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPhanCong.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPhanCong.Location = new System.Drawing.Point(280, 239);
+            this.btnPhanCong.Location = new System.Drawing.Point(518, 233);
             this.btnPhanCong.Name = "btnPhanCong";
             this.btnPhanCong.Size = new System.Drawing.Size(200, 150);
             this.btnPhanCong.TabIndex = 3;
@@ -110,7 +118,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(518, 236);
+            this.button4.Location = new System.Drawing.Point(280, 236);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(200, 150);
             this.button4.TabIndex = 6;
@@ -156,7 +164,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.btnQuanLyPhong);
             this.Controls.Add(this.btnPhanCong);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnCongViec);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnQuanLyTaiKhoan);
             this.Name = "QuanLyForm";
@@ -171,7 +179,7 @@
 
         private Button btnQuanLyTaiKhoan;
         private Button button2;
-        private Button button3;
+        private Button btnCongViec;
         private Button btnPhanCong;
         private Button button1;
         private Button button4;

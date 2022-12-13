@@ -1,6 +1,5 @@
 ﻿using GUI;
 
-
 namespace GUI
 {
     public partial class QuanLyForm : Form
@@ -43,6 +42,14 @@ namespace GUI
             this.Hide();
             QuanLyPhongForm quanLyPhongForm = new QuanLyPhongForm();
             quanLyPhongForm.ShowDialog();
+            this.Close();
+        }
+
+        private void btnCongViec_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CongViecForm congViecForm = new CongViecForm();
+            congViecForm.ShowDialog();
             this.Close();
         }
     }

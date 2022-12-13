@@ -270,7 +270,7 @@
             this.Controls.Add(this.label1);
             this.Name = "QuanLyPhongForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "QuanLyPhongForm";
+            this.Text = "Quản Lý Phòng";
             this.Load += new System.EventHandler(this.QuanLyPhongForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachPhong)).EndInit();
             this.ResumeLayout(false);
