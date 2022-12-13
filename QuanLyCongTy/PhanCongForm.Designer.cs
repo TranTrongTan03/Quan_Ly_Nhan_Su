@@ -33,8 +33,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.tbMaQuanLy = new System.Windows.Forms.TextBox();
-            this.tbMaCongViec = new System.Windows.Forms.TextBox();
-            this.tbMaPhong = new System.Windows.Forms.TextBox();
             this.dgvDanhSachPhanCong = new System.Windows.Forms.DataGridView();
             this.MaQuanLy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaCongViec = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,6 +42,8 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachPhanCong)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,7 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 111);
+            this.label3.Location = new System.Drawing.Point(18, 121);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(97, 20);
             this.label3.TabIndex = 2;
@@ -78,7 +78,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 157);
+            this.label4.Location = new System.Drawing.Point(18, 168);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 20);
             this.label4.TabIndex = 3;
@@ -90,20 +90,6 @@
             this.tbMaQuanLy.Name = "tbMaQuanLy";
             this.tbMaQuanLy.Size = new System.Drawing.Size(224, 27);
             this.tbMaQuanLy.TabIndex = 4;
-            // 
-            // tbMaCongViec
-            // 
-            this.tbMaCongViec.Location = new System.Drawing.Point(126, 111);
-            this.tbMaCongViec.Name = "tbMaCongViec";
-            this.tbMaCongViec.Size = new System.Drawing.Size(224, 27);
-            this.tbMaCongViec.TabIndex = 5;
-            // 
-            // tbMaPhong
-            // 
-            this.tbMaPhong.Location = new System.Drawing.Point(126, 157);
-            this.tbMaPhong.Name = "tbMaPhong";
-            this.tbMaPhong.Size = new System.Drawing.Size(224, 27);
-            this.tbMaPhong.TabIndex = 6;
             // 
             // dgvDanhSachPhanCong
             // 
@@ -190,19 +176,51 @@
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "CV001",
+            "CV002",
+            "CV003",
+            "CV004",
+            "CV005",
+            "CV006",
+            "CV007",
+            "CV008"});
+            this.comboBox1.Location = new System.Drawing.Point(123, 113);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(224, 28);
+            this.comboBox1.TabIndex = 13;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "P001",
+            "P002",
+            "P003",
+            "P004",
+            "P005",
+            "P006"});
+            this.comboBox2.Location = new System.Drawing.Point(123, 160);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(224, 28);
+            this.comboBox2.TabIndex = 14;
+            // 
             // PhanCongForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.tbTim);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dgvDanhSachPhanCong);
-            this.Controls.Add(this.tbMaPhong);
-            this.Controls.Add(this.tbMaCongViec);
             this.Controls.Add(this.tbMaQuanLy);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -224,8 +242,6 @@
         private Label label3;
         private Label label4;
         private TextBox tbMaQuanLy;
-        private TextBox tbMaCongViec;
-        private TextBox tbMaPhong;
         private DataGridView dgvDanhSachPhanCong;
         private DataGridViewTextBoxColumn MaQuanLy;
         private DataGridViewTextBoxColumn MaCongViec;
@@ -235,5 +251,7 @@
         private Button btnThem;
         private Button btnSua;
         private Button btnXoa;
+        private ComboBox comboBox1;
+        private ComboBox comboBox2;
     }
 }

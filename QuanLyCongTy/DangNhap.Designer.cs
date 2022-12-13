@@ -1,4 +1,4 @@
-﻿namespace QuanLyNhanSu
+﻿namespace GUI
 {
     partial class DangNhap
     {

@@ -1,7 +1,9 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
+using BUS;
+using DAO;
 
-namespace QuanLyNhanSu
+namespace GUI
 {
     public partial class DangNhap : Form
     {

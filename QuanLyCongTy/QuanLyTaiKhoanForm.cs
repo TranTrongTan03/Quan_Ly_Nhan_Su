@@ -1,8 +1,8 @@
 ﻿using BUS;
-
+using DTO;
 using System.Data;
 
-namespace QuanLyNhanSu
+namespace GUI
 {
     public partial class QuanLyTaiKhoanForm : Form
     {
@@ -142,7 +142,6 @@ namespace QuanLyNhanSu
             var source = new BindingSource();
             source.DataSource = dt;
             dgvDanhSachTaiKhoan.DataSource = source;
-
         }
 
         private void btnDangXuat_Click(object sender, EventArgs e)

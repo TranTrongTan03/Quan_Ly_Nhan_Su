@@ -1,9 +1,5 @@
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.csproj.AssemblyReference.cache
-F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyNhanSu.DangNhap.resources
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.Properties.Resources.resources
-F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyNhanSu.QuanLyForm.resources
-F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyNhanSu.QuanLyTaiKhoanForm.resources
-F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\QuanLyNhanSu.QuenMatKhauForm.resources
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.csproj.GenerateResource.cache
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.AssemblyInfoInputs.cache
@@ -33,3 +29,8 @@ F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\bin\Debug\net6.0-windows\BUS.pdb
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\bin\Debug\net6.0-windows\DTO.pdb
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\bin\Debug\net6.0-windows\DAO.pdb
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.PhanCongForm.resources
+F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.QuanLyPhongForm.resources
+F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.DangNhap.resources
+F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.QuanLyForm.resources
+F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.QuanLyTaiKhoanForm.resources
+F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.QuenMatKhauForm.resources

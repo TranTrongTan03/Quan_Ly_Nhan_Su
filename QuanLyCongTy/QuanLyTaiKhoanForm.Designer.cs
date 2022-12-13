@@ -1,4 +1,4 @@
-﻿namespace QuanLyNhanSu
+﻿namespace GUI
 {
     partial class QuanLyTaiKhoanForm
     {
@@ -215,7 +215,7 @@
             // 
             this.btnBack.Location = new System.Drawing.Point(12, 12);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(94, 58);
+            this.btnBack.Size = new System.Drawing.Size(78, 28);
             this.btnBack.TabIndex = 15;
             this.btnBack.Text = "Quay lại";
             this.btnBack.UseVisualStyleBackColor = true;

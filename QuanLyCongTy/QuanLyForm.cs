@@ -1,15 +1,7 @@
 ﻿using GUI;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace QuanLyNhanSu
+
+namespace GUI
 {
     public partial class QuanLyForm : Form
     {
@@ -43,6 +35,14 @@ namespace QuanLyNhanSu
             this.Hide();
             PhanCongForm phanCongForm = new PhanCongForm();
             phanCongForm.ShowDialog();
+            this.Close();
+        }
+
+        private void btnQuanLyPhong_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            QuanLyPhongForm quanLyPhongForm = new QuanLyPhongForm();
+            quanLyPhongForm.ShowDialog();
             this.Close();
         }
     }

@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using BUS;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace GUI
 {
@@ -15,6 +8,19 @@ namespace GUI
         public PhanCongForm()
         {
             InitializeComponent();
+        }
+        public void LoadData()
+        {
+            try
+            {
+                PhanCongBUS phanCongBUS = new PhanCongBUS();
+                DataTable dt = phanCongBUS.layTatCa();
+                dgvDanhSachPhanCong.DataSource = dt;
+
+            }catch(Exception ex)
+            {
+                throw;
+            }
         }
     }
 }

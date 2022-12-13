@@ -1,4 +1,4 @@
-namespace QuanLyNhanSu
+namespace GUI
 {
     internal static class Program
     {

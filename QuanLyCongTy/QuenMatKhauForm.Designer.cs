@@ -1,5 +1,4 @@
-﻿namespace QuanLyNhanSu
-{
+﻿namespace GUI { 
     partial class QuenMatKhauForm
     {
         /// <summary>

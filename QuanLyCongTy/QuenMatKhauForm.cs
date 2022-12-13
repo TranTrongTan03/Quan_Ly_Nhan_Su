@@ -9,8 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyNhanSu
-{
+namespace GUI { 
     public partial class QuenMatKhauForm : Form
     {
         public QuenMatKhauForm()
