@@ -86,6 +86,7 @@
             this.btnPhanCong.TabIndex = 3;
             this.btnPhanCong.Text = "Phân công";
             this.btnPhanCong.UseVisualStyleBackColor = false;
+            this.btnPhanCong.Click += new System.EventHandler(this.btnPhanCong_Click);
             // 
             // QuanLyForm
             // 

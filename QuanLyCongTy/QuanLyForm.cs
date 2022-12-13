@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,6 +36,14 @@ namespace QuanLyNhanSu
                 btnQuanLyTaiKhoan.Hide();
                 btnPhanCong.Hide(); 
             }
+        }
+
+        private void btnPhanCong_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PhanCongForm phanCongForm = new PhanCongForm();
+            phanCongForm.ShowDialog();
+            this.Close();
         }
     }
 }

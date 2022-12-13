@@ -32,3 +32,4 @@ F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\bin\Debug\net6.0-windows\DTO.dll
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\bin\Debug\net6.0-windows\BUS.pdb
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\bin\Debug\net6.0-windows\DTO.pdb
 F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\bin\Debug\net6.0-windows\DAO.pdb
+F:\LapTrinhCSharp\QuanLyCongTy\QuanLyCongTy\obj\Debug\net6.0-windows\GUI.PhanCongForm.resources
