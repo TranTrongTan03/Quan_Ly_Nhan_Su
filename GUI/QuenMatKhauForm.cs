@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,6 @@ namespace GUI {
         }
         private void btnLayLaiMatKhau_Click(object sender, EventArgs e)
         {
-           
         }
     }
 }

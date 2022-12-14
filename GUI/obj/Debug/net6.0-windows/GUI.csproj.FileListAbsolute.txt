@@ -72,3 +72,4 @@ F:\LapTrinhCSharp\QuanLyCongTy\GUI\obj\Debug\net6.0-windows\refint\GUI.dll
 F:\LapTrinhCSharp\QuanLyCongTy\GUI\obj\Debug\net6.0-windows\GUI.pdb
 F:\LapTrinhCSharp\QuanLyCongTy\GUI\obj\Debug\net6.0-windows\GUI.genruntimeconfig.cache
 F:\LapTrinhCSharp\QuanLyCongTy\GUI\obj\Debug\net6.0-windows\ref\GUI.dll
+F:\LapTrinhCSharp\QuanLyCongTy\GUI\obj\Debug\net6.0-windows\GUI.FormQuanLyMenu.resources

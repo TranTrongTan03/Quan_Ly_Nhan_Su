@@ -7,6 +7,9 @@
     <Compile Update="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormQuanLyMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PhanCongForm.cs">
       <SubType>Form</SubType>
     </Compile>

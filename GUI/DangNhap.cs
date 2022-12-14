@@ -77,9 +77,9 @@ namespace GUI
                     else if (kq == 1)
                     {
                         this.Hide();
-                        QuanLyForm quanLyForm = new QuanLyForm();
-                        quanLyForm.Loai = kq;
-                        quanLyForm.ShowDialog();
+                        FormQuanLyMenu formQuanLyMenu = new FormQuanLyMenu();
+                        formQuanLyMenu.Loai = kq;
+                        formQuanLyMenu.ShowDialog();
                         this.Close();
                     }
                     else

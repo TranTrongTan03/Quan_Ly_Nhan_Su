@@ -8,10 +8,14 @@ namespace GUI
     public partial class QuanLyPhongForm : Form
     {
         private PhongDTO rowSelected;
+
+        private int _loai;
+        public int Loai { get => _loai; set => _loai = value; }
         public QuanLyPhongForm()
         {
             InitializeComponent();
         }
+
         public void LoadMaQuanLy()
         {
             QuanLyPhongBUS quanLyPhongBUS = new QuanLyPhongBUS();
@@ -154,19 +158,18 @@ namespace GUI
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            DangNhap dangNhap = new DangNhap();
-            dangNhap.ShowDialog();
-            this.Close();
+                this.Hide();
+                DangNhap dangNhap = new DangNhap();
+                dangNhap.ShowDialog();
+                this.Close();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            QuanLyForm quanLyForm = new QuanLyForm();
-            quanLyForm.ShowDialog();
-            this.Close();
+                this.Hide();
+                QuanLyForm quanLyForm = new QuanLyForm();
+                quanLyForm.ShowDialog();
+                this.Close();
         }
-
     }
 }
