@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.btnQuanLyTaiKhoan = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnNhanVienQuanLy = new System.Windows.Forms.Button();
             this.btnCongViec = new System.Windows.Forms.Button();
             this.btnPhanCong = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnQuanLyNhanVien = new System.Windows.Forms.Button();
             this.btnQuanLyPhong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -55,21 +55,22 @@
             this.btnQuanLyTaiKhoan.UseVisualStyleBackColor = false;
             this.btnQuanLyTaiKhoan.Click += new System.EventHandler(this.btnQuanLyTaiKhoan_Click);
             // 
-            // button2
+            // btnNhanVienQuanLy
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button2.FlatAppearance.BorderSize = 3;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(280, 51);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 150);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Quản lý";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnNhanVienQuanLy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnNhanVienQuanLy.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnNhanVienQuanLy.FlatAppearance.BorderSize = 3;
+            this.btnNhanVienQuanLy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnNhanVienQuanLy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
+            this.btnNhanVienQuanLy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNhanVienQuanLy.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNhanVienQuanLy.Location = new System.Drawing.Point(280, 51);
+            this.btnNhanVienQuanLy.Name = "btnNhanVienQuanLy";
+            this.btnNhanVienQuanLy.Size = new System.Drawing.Size(200, 150);
+            this.btnNhanVienQuanLy.TabIndex = 1;
+            this.btnNhanVienQuanLy.Text = "Quản lý";
+            this.btnNhanVienQuanLy.UseVisualStyleBackColor = false;
+            this.btnNhanVienQuanLy.Click += new System.EventHandler(this.btnNhanVienQuanLy_Click);
             // 
             // btnCongViec
             // 
@@ -121,21 +122,22 @@
             this.button4.Text = "Kết quả";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnQuanLyNhanVien
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button5.FlatAppearance.BorderSize = 3;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(748, 48);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(200, 150);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Quản lý nhân viên";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnQuanLyNhanVien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnQuanLyNhanVien.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnQuanLyNhanVien.FlatAppearance.BorderSize = 3;
+            this.btnQuanLyNhanVien.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnQuanLyNhanVien.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
+            this.btnQuanLyNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuanLyNhanVien.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnQuanLyNhanVien.Location = new System.Drawing.Point(748, 48);
+            this.btnQuanLyNhanVien.Name = "btnQuanLyNhanVien";
+            this.btnQuanLyNhanVien.Size = new System.Drawing.Size(200, 150);
+            this.btnQuanLyNhanVien.TabIndex = 5;
+            this.btnQuanLyNhanVien.Text = "Quản lý nhân viên";
+            this.btnQuanLyNhanVien.UseVisualStyleBackColor = false;
+            this.btnQuanLyNhanVien.Click += new System.EventHandler(this.btnQuanLyNhanVien_Click);
             // 
             // btnQuanLyPhong
             // 
@@ -162,11 +164,11 @@
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(997, 448);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnQuanLyNhanVien);
             this.Controls.Add(this.btnQuanLyPhong);
             this.Controls.Add(this.btnPhanCong);
             this.Controls.Add(this.btnCongViec);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnNhanVienQuanLy);
             this.Controls.Add(this.btnQuanLyTaiKhoan);
             this.Name = "QuanLyForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -179,11 +181,11 @@
         #endregion
 
         private Button btnQuanLyTaiKhoan;
-        private Button button2;
+        private Button btnNhanVienQuanLy;
         private Button btnCongViec;
         private Button btnPhanCong;
         private Button button4;
-        private Button button5;
+        private Button btnQuanLyNhanVien;
         private Button btnQuanLyPhong;
     }
 }
