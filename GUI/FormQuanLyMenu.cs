@@ -42,6 +42,14 @@ namespace GUI
             congViecForm.ShowDialog();
             this.Close();
         }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            QuanLyNhanVienForm quanLyNhanVienForm = new QuanLyNhanVienForm();
+            quanLyNhanVienForm.ShowDialog();
+            this.Close();
+        }
     }
 }
 

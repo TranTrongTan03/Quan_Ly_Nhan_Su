@@ -15,10 +15,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace GUI
 {
+
     public partial class QuanLyNhanVienForm : Form
     {
         private NhanVienDTO rowSelected;
-       
+        private TaiKhoanDTO TaiKhoanDTO;
 
         public void LoadData()
         {
@@ -200,10 +201,20 @@ namespace GUI
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            QuanLyForm quanLyForm = new QuanLyForm();
-            quanLyForm.ShowDialog();
-            this.Close();
+            if (TaiKhoanDTO.Loai == 0)
+            {
+                this.Hide();
+                QuanLyForm quanLyForm = new QuanLyForm();
+                quanLyForm.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                this.Hide();
+                FormQuanLyMenu quanLyFormMenu = new FormQuanLyMenu();
+                quanLyFormMenu.ShowDialog();
+                this.Close();
+            }
         }
 
         private void btnDangXuat_Click(object sender, EventArgs e)
@@ -239,5 +250,10 @@ namespace GUI
         }
 
         static Regex validate_emailaddress = email_validation();
+
+        private void cbbMaPhong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
