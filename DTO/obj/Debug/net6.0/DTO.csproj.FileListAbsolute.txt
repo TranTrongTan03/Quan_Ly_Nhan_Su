@@ -22,3 +22,15 @@ E:\C#\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.dll
 E:\C#\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\refint\DTO.dll
 E:\C#\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.pdb
 E:\C#\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\ref\DTO.dll
+E:\New folder\Quan_Ly_Nhan_Su\DTO\bin\Debug\net6.0\DTO.deps.json
+E:\New folder\Quan_Ly_Nhan_Su\DTO\bin\Debug\net6.0\DTO.dll
+E:\New folder\Quan_Ly_Nhan_Su\DTO\bin\Debug\net6.0\DTO.pdb
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.dll
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\refint\DTO.dll
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\DTO.pdb
+E:\New folder\Quan_Ly_Nhan_Su\DTO\obj\Debug\net6.0\ref\DTO.dll

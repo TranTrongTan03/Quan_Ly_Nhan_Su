@@ -113,3 +113,43 @@ E:\C#\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.genruntimeconfig.cache
 E:\C#\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\ref\GUI.dll
 E:\C#\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.NhanVienQLForm.resources
 E:\C#\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.QuanLyNhanVienForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\GUI.exe
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\GUI.deps.json
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\GUI.runtimeconfig.json
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\GUI.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\GUI.pdb
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\BUS.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\DAO.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\DTO.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\BUS.pdb
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\DTO.pdb
+E:\New folder\Quan_Ly_Nhan_Su\GUI\bin\Debug\net6.0-windows\DAO.pdb
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.csproj.AssemblyReference.cache
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.CongViecForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.DangNhap.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.FormQuanLyMenu.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.NhanVienQLForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.PhanCongForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.Properties.Resources.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.QuanLyForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.QuanLyNhanVienForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.QuanLyPhongForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.QuanLyTaiKhoanForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.QuenMatKhauForm.resources
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.csproj.GenerateResource.cache
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.AssemblyInfoInputs.cache
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.AssemblyInfo.cs
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.csproj.CoreCompileInputs.cache
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.csproj.CopyComplete
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\refint\GUI.dll
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.pdb
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\GUI.genruntimeconfig.cache
+E:\New folder\Quan_Ly_Nhan_Su\GUI\obj\Debug\net6.0-windows\ref\GUI.dll

@@ -32,3 +32,20 @@ E:\C#\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.dll
 E:\C#\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\refint\BUS.dll
 E:\C#\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.pdb
 E:\C#\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\ref\BUS.dll
+E:\New folder\Quan_Ly_Nhan_Su\BUS\bin\Debug\net6.0\BUS.deps.json
+E:\New folder\Quan_Ly_Nhan_Su\BUS\bin\Debug\net6.0\BUS.dll
+E:\New folder\Quan_Ly_Nhan_Su\BUS\bin\Debug\net6.0\BUS.pdb
+E:\New folder\Quan_Ly_Nhan_Su\BUS\bin\Debug\net6.0\DAO.dll
+E:\New folder\Quan_Ly_Nhan_Su\BUS\bin\Debug\net6.0\DTO.dll
+E:\New folder\Quan_Ly_Nhan_Su\BUS\bin\Debug\net6.0\DAO.pdb
+E:\New folder\Quan_Ly_Nhan_Su\BUS\bin\Debug\net6.0\DTO.pdb
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.csproj.AssemblyReference.cache
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.AssemblyInfoInputs.cache
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.AssemblyInfo.cs
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.csproj.CoreCompileInputs.cache
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.csproj.CopyComplete
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.dll
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\refint\BUS.dll
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\BUS.pdb
+E:\New folder\Quan_Ly_Nhan_Su\BUS\obj\Debug\net6.0\ref\BUS.dll

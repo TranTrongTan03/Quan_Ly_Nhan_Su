@@ -5,7 +5,7 @@ namespace DAO
 {
     public class Provider
     {
-        static string ConnectionString = "Data Source=BAQUANG-TBQ\\SQLEXPRESS;Initial Catalog=QuanLyCongTyDB;Integrated Security=True";
+        static string ConnectionString = "Data Source=LAPTOP-CSRVLLOM\\SQLEXPRESS;Initial Catalog=QuanLyCongTyDB;Integrated Security=True";
 
         SqlConnection? Connection { get; set; }
         public void Connect()

@@ -201,20 +201,12 @@ namespace GUI
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            if (TaiKhoanDTO.Loai == 0)
-            {
+
                 this.Hide();
                 QuanLyForm quanLyForm = new QuanLyForm();
                 quanLyForm.ShowDialog();
                 this.Close();
-            }
-            else
-            {
-                this.Hide();
-                FormQuanLyMenu quanLyFormMenu = new FormQuanLyMenu();
-                quanLyFormMenu.ShowDialog();
-                this.Close();
-            }
+            
         }
 
         private void btnDangXuat_Click(object sender, EventArgs e)

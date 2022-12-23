@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\Quan_Ly_Nhan_Su\\DAO\\DAO.csproj": {}
+    "E:\\New folder\\Quan_Ly_Nhan_Su\\DAO\\DAO.csproj": {}
   },
   "projects": {
-    "E:\\C#\\Quan_Ly_Nhan_Su\\DAO\\DAO.csproj": {
+    "E:\\New folder\\Quan_Ly_Nhan_Su\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Quan_Ly_Nhan_Su\\DAO\\DAO.csproj",
+        "projectUniqueName": "E:\\New folder\\Quan_Ly_Nhan_Su\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "E:\\C#\\Quan_Ly_Nhan_Su\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Quan_Ly_Nhan_Su\\DAO\\obj\\",
+        "projectPath": "E:\\New folder\\Quan_Ly_Nhan_Su\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\trant\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\Quan_Ly_Nhan_Su\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\C#\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj": {
-                "projectPath": "E:\\C#\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj"
+              "E:\\New folder\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\New folder\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\C#\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj": {
+    "E:\\New folder\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj",
+        "projectUniqueName": "E:\\New folder\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "E:\\C#\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Quan_Ly_Nhan_Su\\DTO\\obj\\",
+        "projectPath": "E:\\New folder\\Quan_Ly_Nhan_Su\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\trant\\.nuget\\packages\\",
+        "outputPath": "E:\\New folder\\Quan_Ly_Nhan_Su\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
