@@ -123,7 +123,7 @@ namespace GUI
                 tbEmail.Text = dgvNhanVien.Rows[e.RowIndex].Cells[3].Value.ToString();
                 tbDienThoai.Text = dgvNhanVien.Rows[e.RowIndex].Cells[4].Value.ToString();
                 tbDiaChi.Text = dgvNhanVien.Rows[e.RowIndex].Cells[5].Value.ToString();
-                cbbMaPhong.SelectedItem = dgvNhanVien.Rows[e.RowIndex].Cells[6].Value.ToString();
+                cbbMaPhong.Text = dgvNhanVien.Rows[e.RowIndex].Cells[6].Value.ToString();
             }
         }
 

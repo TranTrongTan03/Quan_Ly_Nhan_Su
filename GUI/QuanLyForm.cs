@@ -23,9 +23,23 @@ namespace GUI
         {
             if(Loai == 1)
             {
-
+                btnQuanLyNhanVien.SetBounds(btnQuanLyTaiKhoan.Bounds.X, btnQuanLyTaiKhoan.Bounds.Y,
+                    btnQuanLyTaiKhoan.Bounds.Width, btnQuanLyTaiKhoan.Bounds.Height);
+                btnKetQua.SetBounds(btnPhanCong.Bounds.X, btnPhanCong.Bounds.Y,
+                btnPhanCong.Bounds.Width, btnPhanCong.Bounds.Height);
                 btnQuanLyTaiKhoan.Hide();
                 btnPhanCong.Hide(); 
+            }else if(Loai == 2)
+            {
+                btnQuanLyNhanVien.SetBounds(btnQuanLyTaiKhoan.Bounds.X, btnQuanLyTaiKhoan.Bounds.Y,
+                btnQuanLyTaiKhoan.Bounds.Width, btnQuanLyTaiKhoan.Bounds.Height);
+                btnKetQua.SetBounds(btnNhanVienQuanLy.Bounds.X, btnNhanVienQuanLy.Bounds.Y,
+                btnNhanVienQuanLy.Bounds.Width, btnNhanVienQuanLy.Bounds.Height);
+                btnNhanVienQuanLy.Hide();
+                btnQuanLyPhong.Hide();
+                btnCongViec.Hide();
+                btnQuanLyTaiKhoan.Hide();
+                btnPhanCong.Hide();
             }
         }
 

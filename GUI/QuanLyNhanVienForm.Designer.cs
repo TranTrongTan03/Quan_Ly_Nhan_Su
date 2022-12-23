@@ -56,9 +56,9 @@
             this.DienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaPhong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tbNgaySinh = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnDangXuat = new System.Windows.Forms.Button();
+            this.tbNgaySinh = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -323,13 +323,6 @@
             this.MaPhong.ReadOnly = true;
             this.MaPhong.Width = 125;
             // 
-            // tbNgaySinh
-            // 
-            this.tbNgaySinh.Location = new System.Drawing.Point(379, 253);
-            this.tbNgaySinh.Name = "tbNgaySinh";
-            this.tbNgaySinh.Size = new System.Drawing.Size(232, 27);
-            this.tbNgaySinh.TabIndex = 68;
-            // 
             // btnBack
             // 
             this.btnBack.Location = new System.Drawing.Point(151, 53);
@@ -350,14 +343,22 @@
             this.btnDangXuat.UseVisualStyleBackColor = true;
             this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
+            // tbNgaySinh
+            // 
+            this.tbNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.tbNgaySinh.Location = new System.Drawing.Point(379, 251);
+            this.tbNgaySinh.Name = "tbNgaySinh";
+            this.tbNgaySinh.Size = new System.Drawing.Size(223, 27);
+            this.tbNgaySinh.TabIndex = 71;
+            // 
             // QuanLyNhanVienForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1168, 1055);
+            this.Controls.Add(this.tbNgaySinh);
             this.Controls.Add(this.btnDangXuat);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.tbNgaySinh);
             this.Controls.Add(this.dgvNhanVien);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.tbTimKiem);
@@ -418,8 +419,8 @@
         private DataGridViewTextBoxColumn DienThoai;
         private DataGridViewTextBoxColumn DiaChi;
         private DataGridViewTextBoxColumn MaPhong;
-        private TextBox tbNgaySinh;
         private Button btnBack;
         private Button btnDangXuat;
+        private DateTimePicker tbNgaySinh;
     }
 }

@@ -66,20 +66,12 @@ namespace GUI
 
                 else
                 {
-                    if (kq == 0)
+                    if (kq != -1)
                     {
                         this.Hide();
                         QuanLyForm quanLyForm = new QuanLyForm();
                         quanLyForm.Loai = kq;
                         quanLyForm.ShowDialog();
-                        this.Close();
-                    }
-                    else if (kq == 1)
-                    {
-                        this.Hide();
-                        FormQuanLyMenu formQuanLyMenu = new FormQuanLyMenu();
-                        formQuanLyMenu.Loai = kq;
-                        formQuanLyMenu.ShowDialog();
                         this.Close();
                     }
                     else

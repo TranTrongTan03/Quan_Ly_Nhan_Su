@@ -37,7 +37,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tbSoDt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.tbNgaySinh = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.tbTenQL = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -59,6 +58,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnDangXuat = new System.Windows.Forms.Button();
+            this.tbNgaySinh = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVienQL)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,13 +139,6 @@
             this.label5.Size = new System.Drawing.Size(51, 20);
             this.label5.TabIndex = 41;
             this.label5.Text = "EMAIL";
-            // 
-            // tbNgaySinh
-            // 
-            this.tbNgaySinh.Location = new System.Drawing.Point(326, 239);
-            this.tbNgaySinh.Name = "tbNgaySinh";
-            this.tbNgaySinh.Size = new System.Drawing.Size(232, 27);
-            this.tbNgaySinh.TabIndex = 40;
             // 
             // label4
             // 
@@ -352,11 +345,20 @@
             this.btnDangXuat.UseVisualStyleBackColor = true;
             this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
+            // tbNgaySinh
+            // 
+            this.tbNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.tbNgaySinh.Location = new System.Drawing.Point(326, 239);
+            this.tbNgaySinh.Name = "tbNgaySinh";
+            this.tbNgaySinh.Size = new System.Drawing.Size(223, 27);
+            this.tbNgaySinh.TabIndex = 64;
+            // 
             // NhanVienQLForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1071, 889);
+            this.Controls.Add(this.tbNgaySinh);
             this.Controls.Add(this.btnDangXuat);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label10);
@@ -377,7 +379,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tbSoDt);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.tbNgaySinh);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tbTenQL);
             this.Controls.Add(this.label3);
@@ -401,7 +402,6 @@
         private Label label6;
         private TextBox tbSoDt;
         private Label label5;
-        private TextBox tbNgaySinh;
         private Label label4;
         private TextBox tbTenQL;
         private Label label3;
@@ -423,5 +423,6 @@
         private Label label10;
         private Button btnBack;
         private Button btnDangXuat;
+        private DateTimePicker tbNgaySinh;
     }
 }

@@ -138,7 +138,7 @@ namespace GUI
                 tbMaQL.Text = dgvNhanVienQL.Rows[e.RowIndex].Cells[0].Value.ToString();
                 tbTenQL.Text = dgvNhanVienQL.Rows[e.RowIndex].Cells[1].Value.ToString();
                 tbNgaySinh.Text = dgvNhanVienQL.Rows[e.RowIndex].Cells[2].Value.ToString();
-                tbGioiTinh.SelectedItem = dgvNhanVienQL.Rows[e.RowIndex].Cells[3].Value.ToString();
+                tbGioiTinh.Text= dgvNhanVienQL.Rows[e.RowIndex].Cells[3].Value.ToString();
                 tbSoDt.Text = dgvNhanVienQL.Rows[e.RowIndex].Cells[4].Value.ToString();
                 tbEmail.Text = dgvNhanVienQL.Rows[e.RowIndex].Cells[5].Value.ToString();
                 tbDiaChi.Text = dgvNhanVienQL.Rows[e.RowIndex].Cells[6].Value.ToString();

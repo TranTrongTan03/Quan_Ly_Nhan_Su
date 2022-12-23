@@ -122,7 +122,7 @@ namespace GUI
                 tbMaPhong.Text = dgvDanhSachPhong.Rows[e.RowIndex].Cells[0].Value.ToString();
                 tbSoNhanVien.Text = dgvDanhSachPhong.Rows[e.RowIndex].Cells[1].Value.ToString();
                 tbTruongPhong.Text = dgvDanhSachPhong.Rows[e.RowIndex].Cells[2].Value.ToString();
-                cbbMaQuanLy.SelectedItem = dgvDanhSachPhong.Rows[e.RowIndex].Cells[3].Value.ToString();
+                cbbMaQuanLy.Text = dgvDanhSachPhong.Rows[e.RowIndex].Cells[3].Value.ToString();
             }
         }
 

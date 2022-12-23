@@ -105,7 +105,8 @@
             this.cbLoai.FormattingEnabled = true;
             this.cbLoai.Items.AddRange(new object[] {
             "0",
-            "1"});
+            "1",
+            "2"});
             this.cbLoai.Location = new System.Drawing.Point(257, 180);
             this.cbLoai.Name = "cbLoai";
             this.cbLoai.Size = new System.Drawing.Size(134, 28);

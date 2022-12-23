@@ -32,7 +32,7 @@
             this.btnNhanVienQuanLy = new System.Windows.Forms.Button();
             this.btnCongViec = new System.Windows.Forms.Button();
             this.btnPhanCong = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnKetQua = new System.Windows.Forms.Button();
             this.btnQuanLyNhanVien = new System.Windows.Forms.Button();
             this.btnQuanLyPhong = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -106,21 +106,21 @@
             this.btnPhanCong.UseVisualStyleBackColor = false;
             this.btnPhanCong.Click += new System.EventHandler(this.btnPhanCong_Click);
             // 
-            // button4
+            // btnKetQua
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button4.FlatAppearance.BorderSize = 3;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(518, 230);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 150);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Kết quả";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnKetQua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnKetQua.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnKetQua.FlatAppearance.BorderSize = 3;
+            this.btnKetQua.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnKetQua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Bisque;
+            this.btnKetQua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKetQua.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnKetQua.Location = new System.Drawing.Point(518, 230);
+            this.btnKetQua.Name = "btnKetQua";
+            this.btnKetQua.Size = new System.Drawing.Size(200, 150);
+            this.btnKetQua.TabIndex = 6;
+            this.btnKetQua.Text = "Kết quả";
+            this.btnKetQua.UseVisualStyleBackColor = true;
             // 
             // btnQuanLyNhanVien
             // 
@@ -163,7 +163,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(997, 448);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnKetQua);
             this.Controls.Add(this.btnQuanLyNhanVien);
             this.Controls.Add(this.btnQuanLyPhong);
             this.Controls.Add(this.btnPhanCong);
@@ -184,7 +184,7 @@
         private Button btnNhanVienQuanLy;
         private Button btnCongViec;
         private Button btnPhanCong;
-        private Button button4;
+        private Button btnKetQua;
         private Button btnQuanLyNhanVien;
         private Button btnQuanLyPhong;
     }
